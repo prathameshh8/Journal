@@ -1,0 +1,475 @@
+<!doctype html>
+<html class="not-ready lg:text-base" lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Title -->
+  <title>
+    Prathamesh Daily Journal
+  </title>
+
+  <!-- Meta -->
+  <meta name="theme-color" />
+
+  
+  <!-- Author -->
+  
+  <!---->
+  <meta name="description" content="Prathamesh daily journal where I share my experiences" />
+  <meta name="author" content="Prathamesh" />
+  <!-- The Open Graph protocol -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Prathamesh Daily Journal" />
+  <meta property="og:description" content="Prathamesh daily journal where I share my experiences" />
+  <meta property="og:url" content="https://prathameshh8.github.io/Journal" />
+  
+  <meta property="og:image" content="https://prathameshh8.github.io/Journal/icons/github.svg" />
+  
+  <!---->
+  
+
+  <!-- Modern System Font Stack - No external fonts needed -->
+  
+  <!-- CSS & JS -->
+  <link rel="preload stylesheet" as="style" href="https://prathameshh8.github.io/Journal/main.css" />
+  <style>
+    :root {
+      --bg: #000000;
+      --bg-dark: #000000;
+      --header: #000000;
+      --header-dark: #000000;
+      --accent-primary: #0077FF;
+      --accent-hover: #0066DD;
+      --accent-light: #3399FF;
+    }
+    
+    /* Modern system font stack for entire site */
+    * {
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    }
+    
+    html, body {
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    }
+    
+    /* Enhanced blue accent styling for sleek modern look */
+    html, body {
+      background-color: #000000 !important;
+    }
+    
+    .header {
+      background-color: #000000 !important;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      color: #0077FF !important;
+    }
+    
+    /* Make profile name and bio white */
+    .profile-name {
+      color: #FFFFFF !important;
+    }
+    
+    .profile-bio {
+      color: #FFFFFF !important;
+    }
+    
+    .site-title {
+      color: #0077FF !important;
+    }
+    
+    /* Make post titles blue */
+    section h2 {
+      color: #0077FF !important;
+    }
+    
+    /* Enhanced block styling */
+    .block-bg {
+      background-color: rgba(255, 255, 255, 0.05) !important;
+    }
+    
+    .block-hover:hover {
+      background-color: rgba(0, 119, 255, 0.1) !important;
+    }
+    
+    /* Links styling */
+    a:not([class]) {
+      color: #0077FF !important;
+    }
+    
+    .link {
+      color: #0077FF !important;
+    }
+    
+    .accent-link {
+      color: #0077FF !important;
+    }
+    
+    /* Navigation links */
+    .primary-link:hover {
+      color: #0077FF !important;
+    }
+    
+    /* Make all blog content text white */
+    
+    /* Blog post descriptions (like "God First", "Lorem Ipsum Dolor Si Amet") */
+    .not-prose p {
+      color: #FFFFFF !important;
+    }
+    
+    section .not-prose p {
+      color: #FFFFFF !important;
+    }
+    
+    /* Date, read time, author info container */
+    .text-sm.antialiased.opacity-60 {
+      color: #FFFFFF !important;
+      opacity: 0.8 !important;
+    }
+    
+    /* All spans inside page info (dates, read times, author names) */
+    .text-sm.antialiased.opacity-60 span {
+      color: #FFFFFF !important;
+    }
+    
+    /* Time elements (dates like "2025-01-08") */
+    .text-sm.antialiased.opacity-60 time {
+      color: #FFFFFF !important;
+    }
+    
+    /* Ensure all content paragraphs are white */
+    section p {
+      color: #FFFFFF !important;
+    }
+    
+    /* Make sure any other text content is white */
+    .not-prose {
+      color: #FFFFFF !important;
+    }
+    
+    /* Post navigation buttons - make them pure white */
+    nav.block-bg a {
+      color: #FFFFFF !important;
+    }
+    
+    nav.block-bg a span {
+      color: #FFFFFF !important;
+    }
+    
+    /* Post navigation hover effect */
+    nav.block-bg a:hover {
+      color: #FFFFFF !important;
+      background-color: rgba(0, 119, 255, 0.1) !important;
+    }
+    
+    /* Ensure navigation arrows and text are white */
+    .block-hover-mask {
+      color: #FFFFFF !important;
+    }
+    
+    .block-hover-mask span {
+      color: #FFFFFF !important;
+    }
+    
+    /* Social Links Section Styling */
+    .social-links-section {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 2rem;
+    }
+    
+    /* Year Introduction Section Styling - Minimalist */
+    .year-intro-section {
+      margin: 2rem 0;
+    }
+    
+    .time-travel-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+
+    
+    .year-btn {
+      background-color: rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.8);
+      border: none;
+      padding: 0.4rem 0.8rem;
+      border-radius: 0.2rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-size: 0.85rem;
+      font-weight: 400;
+      min-width: 50px;
+      margin: 0 0.25rem;
+    }
+    
+    .year-btn:hover {
+      background-color: rgba(0, 119, 255, 0.2);
+      color: #0077FF;
+    }
+    
+    .year-btn.active {
+      background-color: #0077FF;
+      color: #FFFFFF;
+    }
+    
+    .year-intro {
+      display: none;
+    }
+    
+    .year-intro.active {
+      display: block;
+    }
+    
+    .intro-text {
+      color: #FFFFFF;
+      font-size: 1.125rem;
+      line-height: 1.6;
+      margin-top: 1.5rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .intro-text p {
+      color: #FFFFFF !important;
+      margin: 0.75rem 0;
+      text-align: center;
+    }
+    
+    .revenue-stats {
+      color: #0077FF !important;
+      font-style: italic;
+      margin-top: 1.5rem !important;
+      font-size: 0.95rem;
+    }
+  </style>
+
+  
+
+  <!-- No theme switcher needed -->
+
+  <!-- Math -->
+  
+  <!---->
+
+  <!-- Mermaid -->
+  
+  <!---->
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://prathameshh8.github.io/Journal/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://prathameshh8.github.io/Journal/apple-touch-icon.png" />
+
+  <!-- Feeds -->
+  
+  <!---->
+  
+  <link
+    rel="alternate"
+    type="application/atom+xml"
+    title="Atom"
+    href="https://prathameshh8.github.io/Journal/atom.xml"
+  />
+   
+  <!---->
+  
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal" />
+
+  <!-- Head inject -->
+  
+</head>
+
+  <body class="text-white duration-200 ease-out">
+    <header
+  class="blur-header fixed top-0 z-40 mx-auto min-h-[3.5rem] w-full"
+>
+  <div class="mx-auto w-full max-w-4xl p-3 lg:flex lg:justify-between">
+    <div class="flex justify-between">
+      <div class="flex items-center">
+        <a class="site-title text-2xl font-semibold" href="https://prathameshh8.github.io/Journal">Prathamesh Daily Journal</a>
+      </div>
+      
+      <div
+        class="btn-menu relative z-50 flex h-8 w-8 shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+        role="button"
+        aria-label="Menu"
+      ></div>
+      
+    </div>
+    <script>
+      // base
+      const htmlClass = document.documentElement.classList;
+      setTimeout(() => {
+        htmlClass.remove("not-ready");
+      }, 10);
+
+      // mobile menu
+      const btnMenu = document.querySelector(".btn-menu");
+      btnMenu?.addEventListener("click", () => {
+        htmlClass.toggle("open");
+      });
+
+      // Force dark mode always
+      htmlClass.add("dark");
+    </script>
+    
+    <nav class="flex w-full items-center lg:w-auto">
+      <ul
+        class="nav-wrapper flex w-full flex-col py-2 lg:w-auto lg:flex-row lg:self-center lg:py-0"
+      >
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://prathameshh8.github.io/Journal//projects"
+            >Projects</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://prathameshh8.github.io/Journal//archive"
+            >Archive</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://prathameshh8.github.io/Journal//tags"
+            >Tags</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://prathameshh8.github.io/Journal//about"
+            >About</a
+          >
+        </li>
+        
+      </ul>
+      <!-- Header Nav inject -->
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <!-- Body Start inject -->
+    
+
+    <main
+      class="prose prose-neutral prose-invert prose-pre:rounded-lg prose-img:rounded-lg relative mx-auto min-h-[calc(100vh-9rem)] max-w-3xl px-4 pt-24 pb-16 break-words lg:pt-32"
+    >
+      
+<!-- Taxonomy Title -->
+<h1 class="mb-16">Tags</h1>
+<!-- Taxonomies -->
+<div class="not-prose grid grid-cols-1 gap-4 md:grid-cols-2">
+  
+  <div class="block-bg flex h-full flex-col rounded-lg px-5 pb-2 md:min-h-[18rem]">
+    <h3 class="my-4 text-xl font-bold text-white dark:text-white">
+      <a class="primary-link" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;tags&#x2F;css&#x2F;"> #css </a>
+      <sup class="opacity-60">2</sup>
+    </h3>
+
+    
+    <a class="secondary-link my-0.5" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;usefulls&#x2F;markdown-syntax&#x2F;">Markdown Syntax Guide</a>
+    
+    <a class="secondary-link my-0.5" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;usefulls&#x2F;shortcodes&#x2F;">Shortcodes</a>
+    <!---->
+
+    <!---->
+  </div>
+  
+  <div class="block-bg flex h-full flex-col rounded-lg px-5 pb-2 md:min-h-[18rem]">
+    <h3 class="my-4 text-xl font-bold text-white dark:text-white">
+      <a class="primary-link" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;tags&#x2F;html&#x2F;"> #html </a>
+      <sup class="opacity-60">2</sup>
+    </h3>
+
+    
+    <a class="secondary-link my-0.5" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;usefulls&#x2F;markdown-syntax&#x2F;">Markdown Syntax Guide</a>
+    
+    <a class="secondary-link my-0.5" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;usefulls&#x2F;shortcodes&#x2F;">Shortcodes</a>
+    <!---->
+
+    <!---->
+  </div>
+  
+  <div class="block-bg flex h-full flex-col rounded-lg px-5 pb-2 md:min-h-[18rem]">
+    <h3 class="my-4 text-xl font-bold text-white dark:text-white">
+      <a class="primary-link" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;tags&#x2F;markdown&#x2F;"> #markdown </a>
+      <sup class="opacity-60">3</sup>
+    </h3>
+
+    
+    <a class="secondary-link my-0.5" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;placeholder-1&#x2F;">Placeholder Text 1</a>
+    
+    <a class="secondary-link my-0.5" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;usefulls&#x2F;markdown-syntax&#x2F;">Markdown Syntax Guide</a>
+    
+    <a class="secondary-link my-0.5" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;usefulls&#x2F;shortcodes&#x2F;">Shortcodes</a>
+    <!---->
+
+    <!---->
+  </div>
+  
+  <div class="block-bg flex h-full flex-col rounded-lg px-5 pb-2 md:min-h-[18rem]">
+    <h3 class="my-4 text-xl font-bold text-white dark:text-white">
+      <a class="primary-link" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;tags&#x2F;text&#x2F;"> #text </a>
+      <sup class="opacity-60">1</sup>
+    </h3>
+
+    
+    <a class="secondary-link my-0.5" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;placeholder-1&#x2F;">Placeholder Text 1</a>
+    <!---->
+
+    <!---->
+  </div>
+  <!---->
+</div>
+
+    </main>
+
+    <footer class="mx-auto flex max-w-3xl flex-wrap items-center px-8 py-4 text-sm opacity-60">
+  <div class="mr-auto basis-full lg:basis-1/2">
+    <!---->
+    <!---->
+    &copy; 2020 - 2025<!---->
+    
+    <a class="link" href="https://prathameshh8.github.io/Journal">
+      Prathamesh
+    </a>
+     |<!---->
+    <!---->
+    <a class="link" href="https:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-sa&#x2F;4.0&#x2F;deed" rel="noopener" target="_blank">
+      CC BY-SA 4.0
+    </a>
+    <!---->
+    
+  </div>
+  <div class="flex basis-full lg:basis-1/2 lg:justify-end">
+    <a class="link mr-6 lg:ml-6" href="https://www.getzola.org/" rel="noopener" target="_blank">
+      Powered by Zola
+    </a>
+    <a class="link" href="https://github.com/st1020/kita" rel="noopener" target="_blank">✎ Kita</a>
+  </div>
+  <!-- Footer inject -->
+  
+</footer>
+
+
+    <!-- Body End inject -->
+    
+  </body>
+</html>

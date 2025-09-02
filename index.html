@@ -1,0 +1,1742 @@
+<!doctype html>
+<html class="not-ready lg:text-base" lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Title -->
+  <title>
+    Prathamesh Daily Journal
+  </title>
+
+  <!-- Meta -->
+  <meta name="theme-color" />
+
+  
+  <!-- Author -->
+  
+  <!---->
+  <meta name="description" content="Prathamesh daily journal where I share my experiences" />
+  <meta name="author" content="Prathamesh" />
+  <!-- The Open Graph protocol -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Prathamesh Daily Journal" />
+  <meta property="og:description" content="Prathamesh daily journal where I share my experiences" />
+  <meta property="og:url" content="https://prathameshh8.github.io/Journal" />
+  
+  <meta property="og:image" content="https://prathameshh8.github.io/Journal/icons/github.svg" />
+  
+  <!---->
+  
+
+  <!-- Modern System Font Stack - No external fonts needed -->
+  
+  <!-- CSS & JS -->
+  <link rel="preload stylesheet" as="style" href="https://prathameshh8.github.io/Journal/main.css" />
+  <style>
+    :root {
+      --bg: #000000;
+      --bg-dark: #000000;
+      --header: #000000;
+      --header-dark: #000000;
+      --accent-primary: #0077FF;
+      --accent-hover: #0066DD;
+      --accent-light: #3399FF;
+    }
+    
+    /* Modern system font stack for entire site */
+    * {
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    }
+    
+    html, body {
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    }
+    
+    /* Enhanced blue accent styling for sleek modern look */
+    html, body {
+      background-color: #000000 !important;
+    }
+    
+    .header {
+      background-color: #000000 !important;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      color: #0077FF !important;
+    }
+    
+    /* Make profile name and bio white */
+    .profile-name {
+      color: #FFFFFF !important;
+    }
+    
+    .profile-bio {
+      color: #FFFFFF !important;
+    }
+    
+    .site-title {
+      color: #0077FF !important;
+    }
+    
+    /* Make post titles blue */
+    section h2 {
+      color: #0077FF !important;
+    }
+    
+    /* Enhanced block styling */
+    .block-bg {
+      background-color: rgba(255, 255, 255, 0.05) !important;
+    }
+    
+    .block-hover:hover {
+      background-color: rgba(0, 119, 255, 0.1) !important;
+    }
+    
+    /* Links styling */
+    a:not([class]) {
+      color: #0077FF !important;
+    }
+    
+    .link {
+      color: #0077FF !important;
+    }
+    
+    .accent-link {
+      color: #0077FF !important;
+    }
+    
+    /* Navigation links */
+    .primary-link:hover {
+      color: #0077FF !important;
+    }
+    
+    /* Make all blog content text white */
+    
+    /* Blog post descriptions (like "God First", "Lorem Ipsum Dolor Si Amet") */
+    .not-prose p {
+      color: #FFFFFF !important;
+    }
+    
+    section .not-prose p {
+      color: #FFFFFF !important;
+    }
+    
+    /* Date, read time, author info container */
+    .text-sm.antialiased.opacity-60 {
+      color: #FFFFFF !important;
+      opacity: 0.8 !important;
+    }
+    
+    /* All spans inside page info (dates, read times, author names) */
+    .text-sm.antialiased.opacity-60 span {
+      color: #FFFFFF !important;
+    }
+    
+    /* Time elements (dates like "2025-01-08") */
+    .text-sm.antialiased.opacity-60 time {
+      color: #FFFFFF !important;
+    }
+    
+    /* Ensure all content paragraphs are white */
+    section p {
+      color: #FFFFFF !important;
+    }
+    
+    /* Make sure any other text content is white */
+    .not-prose {
+      color: #FFFFFF !important;
+    }
+    
+    /* Post navigation buttons - make them pure white */
+    nav.block-bg a {
+      color: #FFFFFF !important;
+    }
+    
+    nav.block-bg a span {
+      color: #FFFFFF !important;
+    }
+    
+    /* Post navigation hover effect */
+    nav.block-bg a:hover {
+      color: #FFFFFF !important;
+      background-color: rgba(0, 119, 255, 0.1) !important;
+    }
+    
+    /* Ensure navigation arrows and text are white */
+    .block-hover-mask {
+      color: #FFFFFF !important;
+    }
+    
+    .block-hover-mask span {
+      color: #FFFFFF !important;
+    }
+    
+    /* Social Links Section Styling */
+    .social-links-section {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 2rem;
+    }
+    
+    /* Year Introduction Section Styling - Minimalist */
+    .year-intro-section {
+      margin: 2rem 0;
+    }
+    
+    .time-travel-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+
+    
+    .year-btn {
+      background-color: rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.8);
+      border: none;
+      padding: 0.4rem 0.8rem;
+      border-radius: 0.2rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-size: 0.85rem;
+      font-weight: 400;
+      min-width: 50px;
+      margin: 0 0.25rem;
+    }
+    
+    .year-btn:hover {
+      background-color: rgba(0, 119, 255, 0.2);
+      color: #0077FF;
+    }
+    
+    .year-btn.active {
+      background-color: #0077FF;
+      color: #FFFFFF;
+    }
+    
+    .year-intro {
+      display: none;
+    }
+    
+    .year-intro.active {
+      display: block;
+    }
+    
+    .intro-text {
+      color: #FFFFFF;
+      font-size: 1.125rem;
+      line-height: 1.6;
+      margin-top: 1.5rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .intro-text p {
+      color: #FFFFFF !important;
+      margin: 0.75rem 0;
+      text-align: center;
+    }
+    
+    .revenue-stats {
+      color: #0077FF !important;
+      font-style: italic;
+      margin-top: 1.5rem !important;
+      font-size: 0.95rem;
+    }
+  </style>
+
+  
+  <!-- Avatar -->
+  
+  <link rel="preload" as="image" href="https://prathameshh8.github.io/Journal/pfp.jpg" />
+  
+
+  <!-- Social List -->
+  
+  <!---->
+  
+  <link rel="preload" as="image" href="https://cdn.jsdelivr.net/npm/simple-icons/icons/instagram.svg" />
+  
+  <link rel="preload" as="image" href="https://cdn.jsdelivr.net/npm/simple-icons/icons/twitter.svg" />
+  
+  <link rel="preload" as="image" href="https://cdn.jsdelivr.net/npm/simple-icons/icons/youtube.svg" />
+  
+  <link rel="preload" as="image" href="https://prathameshh8.github.io/Journal/icons/rss.svg" />
+  
+  <!---->
+  
+  <!---->
+  
+
+  <!-- No theme switcher needed -->
+
+  <!-- Math -->
+  
+  <!---->
+
+  <!-- Mermaid -->
+  
+  <!---->
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://prathameshh8.github.io/Journal/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://prathameshh8.github.io/Journal/apple-touch-icon.png" />
+
+  <!-- Feeds -->
+  
+  <!---->
+  
+  <link
+    rel="alternate"
+    type="application/atom+xml"
+    title="Atom"
+    href="https://prathameshh8.github.io/Journal/atom.xml"
+  />
+   
+  <!---->
+  
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal" />
+
+  <!-- Head inject -->
+  
+</head>
+
+  <body class="text-white duration-200 ease-out">
+    <header
+  class="blur-header fixed top-0 z-40 mx-auto min-h-[3.5rem] w-full"
+>
+  <div class="mx-auto w-full max-w-4xl p-3 lg:flex lg:justify-between">
+    <div class="flex justify-between">
+      <div class="flex items-center">
+        <a class="site-title text-2xl font-semibold" href="https://prathameshh8.github.io/Journal">Prathamesh Daily Journal</a>
+      </div>
+      
+      <div
+        class="btn-menu relative z-50 flex h-8 w-8 shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+        role="button"
+        aria-label="Menu"
+      ></div>
+      
+    </div>
+    <script>
+      // base
+      const htmlClass = document.documentElement.classList;
+      setTimeout(() => {
+        htmlClass.remove("not-ready");
+      }, 10);
+
+      // mobile menu
+      const btnMenu = document.querySelector(".btn-menu");
+      btnMenu?.addEventListener("click", () => {
+        htmlClass.toggle("open");
+      });
+
+      // Force dark mode always
+      htmlClass.add("dark");
+    </script>
+    
+    <nav class="flex w-full items-center lg:w-auto">
+      <ul
+        class="nav-wrapper flex w-full flex-col py-2 lg:w-auto lg:flex-row lg:self-center lg:py-0"
+      >
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://prathameshh8.github.io/Journal//projects"
+            >Projects</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://prathameshh8.github.io/Journal//archive"
+            >Archive</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://prathameshh8.github.io/Journal//tags"
+            >Tags</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://prathameshh8.github.io/Journal//about"
+            >About</a
+          >
+        </li>
+        
+      </ul>
+      <!-- Header Nav inject -->
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <!-- Body Start inject -->
+    
+
+    <main
+      class="prose prose-neutral prose-invert prose-pre:rounded-lg prose-img:rounded-lg relative mx-auto min-h-[calc(100vh-9rem)] max-w-3xl px-4 pt-24 pb-16 break-words lg:pt-32"
+    >
+      
+
+      <!-- Profile -->
+      <!---->
+      
+<div class="mb-16 flex items-start">
+  
+  <div class="not-prose mr-5 shrink-0">
+    <img
+      class=" my-0 rounded-full object-cover"
+      style="width: 100px; height: 100px;"
+      src="https://prathameshh8.github.io/Journal/pfp.jpg"
+      alt="Prathamesh Shirbhate"
+    />
+  </div>
+  <!---->
+
+  
+  <div>
+    <h1 class="profile-name mb-2 text-3xl font-bold">Prathamesh Shirbhate</h1>
+    <div class="profile-bio mb-2 break-words">
+      I document my life here so strangers can read it
+    </div>
+
+    
+    <nav class="flex justify-start space-x-3 dark:invert">
+      
+      
+      <a
+        class="primary-link h-8 w-8 text-[0px] [background:var(--url)_center_center/cover_no-repeat]"
+        style="--url: url(https://cdn.jsdelivr.net/npm/simple-icons/icons/instagram.svg)"
+        href="https://www.instagram.com/prathamesh.shh/?hl=en"
+        target="_blank"
+        rel="me"
+      >
+        instagram
+      </a>
+      
+      
+      
+      <a
+        class="primary-link h-8 w-8 text-[0px] [background:var(--url)_center_center/cover_no-repeat]"
+        style="--url: url(https://cdn.jsdelivr.net/npm/simple-icons/icons/twitter.svg)"
+        href="https://x.com/prathamesh_shh"
+        target="_blank"
+        rel="me"
+      >
+        twitter
+      </a>
+      
+      
+      
+      <a
+        class="primary-link h-8 w-8 text-[0px] [background:var(--url)_center_center/cover_no-repeat]"
+        style="--url: url(https://cdn.jsdelivr.net/npm/simple-icons/icons/youtube.svg)"
+        href="https://www.youtube.com/@prathamesh.sh8"
+        target="_blank"
+        rel="me"
+      >
+        youtube
+      </a>
+      
+      
+      
+      
+    </nav>
+    
+  </div>
+  
+</div>
+
+<!---->
+      
+      <!-- Year Introduction -->
+      <!-- Year Introduction Section -->
+<div class="year-intro-section mb-12">
+  <!-- Year Buttons -->
+  <div class="time-travel-container mb-8">
+    <button 
+      class="year-btn active" 
+      data-year="2025"
+      onclick="showYearIntro('2025')"
+    >
+      2025
+    </button>
+    <button 
+      class="year-btn" 
+      data-year="2024"
+      onclick="showYearIntro('2024')"
+    >
+      2024
+    </button>
+  </div>
+
+  <!-- Year Introduction Content -->
+  <div class="year-content">
+    <!-- 2025 Introduction (Default) -->
+    <div id="intro-2025" class="year-intro active">
+      <div class="intro-text text-center">
+        <p>I’m Prathamesh. Gave my 10th boards this year, scored 86.4% with no coaching. Just smart work.</p>
+        <p>After that, chilled with Minecraft, then got deep into copywriting and growth. Wrote two books. Obsessed with to-do lists.</p>
+        <p>Started a dev agency (tmux.io). No clients, but learned a lot. Smashed my phone in a fight, never replaced it. More peace since.</p>
+        <p>Now building Nexttap, a productivity app based on how I work. 3+ months in. No earnings yet.</p>
+        <p>Goal: $500/month and crack a free CS college. Still figuring it out. But I’m all in.</p>
+      </div>
+    </div>
+
+    <!-- 2024 Introduction -->
+    <div id="intro-2024" class="year-intro">
+      <div class="intro-text text-center">
+        <p>I'm Prathamesh, and I just want to build businesses that let me take care of my parents and live free.</p>
+        <p>Started out wanting a Minecraft account. Ended up making my first $160 online at 16 through YouTube automation.</p>
+        <p>Tried trading, dropshipping, affiliate, copywriting. failed at most. Shiny object syndrome every week. But I kept moving.</p>
+        <p>Now I'm focused. Want to live on farmland, earn from my laptop, lift some weights, and talk to billionaires online once in a while.</p>
+        <p>This is just the start.</p>
+        <p class="revenue-stats"><em style="color: #0077FF;">(Revenue: $160/year | Profit margin: 100%)</em></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function showYearIntro(year) {
+  // Hide all year intros
+  document.querySelectorAll('.year-intro').forEach(intro => {
+    intro.classList.remove('active');
+  });
+  
+  // Remove active class from all buttons
+  document.querySelectorAll('.year-btn').forEach(btn => {
+    btn.classList.remove('active');
+  });
+  
+  // Show selected year intro
+  document.getElementById('intro-' + year).classList.add('active');
+  
+  // Add active class to clicked button
+  document.querySelector('[data-year="' + year + '"]').classList.add('active');
+}
+</script><!---->
+      <!---->
+
+      <!-- Pages -->
+<!---->
+<!---->
+<!---->
+
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">Andrew tate workout!</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>Today was fucking awesome.</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-09-02</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;02-09-2025&#x2F;">Andrew tate workout!</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">The best revenge is success.</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>Today was that family event I used to dream about.</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-09-01</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;1-9-2025&#x2F;">The best revenge is success.</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">Unproductive day and a sherwani</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>Today was another really unproductive day.</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-31</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;31-8-2025&#x2F;">Unproductive day and a sherwani</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">The world doesn’t deserve a good person like me</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>Today I finally went on the trip that kept getting canceled for days.</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-30</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;30-8-2025&#x2F;">The world doesn’t deserve a good person like me</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">Today was wasted..</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>wasted my whole day planning a trip that got canceled.</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-29</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;29-8-2025&#x2F;">Today was wasted..</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">The Unproductive Waiting Game</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>A canceled plan leads to a realization about productivity and waiting.</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-28</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;28-8-2025&#x2F;">The Unproductive Waiting Game</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">A Messy Day of Pizza, Soda, and a Scooter Mishap</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>An unplanned outing leads to a first-time soda experience and a painful scooter accident.</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-27</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;27-8-2025&#x2F;">A Messy Day of Pizza, Soda, and a Scooter Mishap</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">Friends, Business, and Bad Advice</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>An unproductive day filled with distractions and a conversation with a friend about business paradigms.</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-26</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;26-8-2025&#x2F;">Friends, Business, and Bad Advice</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">Bike Rides, Night Shifts, and a Broken To-Do List</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>A day of bike riding, thoughts on the &#x27;system&#x27;, and a note to fix a buggy to-do list.</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-25</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;25-8-2025&#x2F;">Bike Rides, Night Shifts, and a Broken To-Do List</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">A Quiet Sunday</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>A quiet sunday.</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-24</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;24-8-2025&#x2F;">A Quiet Sunday</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">I am a bike guy</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>Day was good but not productive...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-23</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;23-8-2025&#x2F;">I am a bike guy</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">Dad is negative </h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>Today was kind of negative but also had some positive parts....</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-22</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;22-8-2025&#x2F;">Dad is negative </a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">New ISP </h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>Today was kind of a bad day, but decent in terms of learning...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-21</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;21-8-2025&#x2F;">New ISP </a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">My friend</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>Got some sunlight, went for a run...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-20</time>
+  <span class="mx-1">&middot;</span>
+  <span>2min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;20-8-2025&#x2F;">My friend</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">I fucked up my to do list </h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>Today wasn’t anything special...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-19</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;19-8-2025&#x2F;">I fucked up my to do list </a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">No funding at all is needed!</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>Today felt like one of the best days...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-18</time>
+  <span class="mx-1">&middot;</span>
+  <span>2min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;18-8-2025&#x2F;">No funding at all is needed!</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">This is the End, the glowing future I see </h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>today was one of the happiest days of my life...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-17</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;17-8-2025&#x2F;">This is the End, the glowing future I see </a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">Saw my dad smile after months</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>Today was a good day. Dad’s dental work got done...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-16</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;16-8-2025&#x2F;">Saw my dad smile after months</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">I am Indi</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>15th August. Independence Day...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-15</time>
+  <span class="mx-1">&middot;</span>
+  <span>2min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;15-8-2025&#x2F;">I am Indi</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">Can&#x27;t maintain my standards</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>Woke up at 7, whole day was hassle...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-14</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;14-8-2025&#x2F;">Can&#x27;t maintain my standards</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">Thermostats theory is G</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>woke up, applied thermostat theory again ...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-13</time>
+  <span class="mx-1">&middot;</span>
+  <span>2min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;13-8-2025&#x2F;">Thermostats theory is G</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">Thermostats theory</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>don’t remember when i woke up today...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-12</time>
+  <span class="mx-1">&middot;</span>
+  <span>2min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;12-8-2025&#x2F;">Thermostats theory</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">The Snow ball effect</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>woke up at 7...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-11</time>
+  <span class="mx-1">&middot;</span>
+  <span>2min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;11-8-2025&#x2F;">The Snow ball effect</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">Your now is your mind 6 months ago</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>woke up late again...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-10</time>
+  <span class="mx-1">&middot;</span>
+  <span>2min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;10-8-2025&#x2F;">Your now is your mind 6 months ago</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">Block Instagram NOWWWWWWWWWWWWWW</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>late morning weakends...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-09</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;9-8-2025&#x2F;">Block Instagram NOWWWWWWWWWWWWWW</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">The growth</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>Today was solid...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-08</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;8-8-2025&#x2F;">The growth</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">Almost died, but it was a good day!</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>woke up around 8...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-07</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;7-8-2025&#x2F;">Almost died, but it was a good day!</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">Implemented landing page</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>woke up around 6:40...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-06</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;6-8-2025&#x2F;">Implemented landing page</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">Midish day</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>woke up at 6...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-05</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;5-8-2025&#x2F;">Midish day</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">Bad day.</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>so today i tried to woke up at 6...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-04</time>
+  <span class="mx-1">&middot;</span>
+  <span>2min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;4-8-2025&#x2F;">Bad day.</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">The day I unfucked my mind and project</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>Okay, so today was actually one of the best days I&#x27;ve had in weeks... </p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-03</time>
+  <span class="mx-1">&middot;</span>
+  <span>3min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;3-8-2025&#x2F;">The day I unfucked my mind and project</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">It was a really good day!!</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>today was one of the best day of my life...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-02</time>
+  <span class="mx-1">&middot;</span>
+  <span>5min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;it-was-a-good-day&#x2F;">It was a really good day!!</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">Things Are Geting Hard</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>God First...</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2025-08-01</time>
+  <span class="mx-1">&middot;</span>
+  <span>1min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;things-are-getting-hard&#x2F;">Things Are Geting Hard</a>
+</section>
+
+<section
+  class="block-bg relative mb-4 rounded-lg p-4 first-of-type:mt-0 last-of-type:mb-0 active:scale-95 lg:mb-6 lg:p-6"
+>
+  <!---->
+
+  <h2 class="my-0! pb-1 leading-none! font-bold">Placeholder Text 1</h2>
+
+  <div class="not-prose my-1 truncate">
+    
+    <p>Lorem Ipsum Dolor Si Amet</p>
+    
+  </div>
+
+  <div class="text-sm antialiased opacity-60">
+  
+  <time>2023-10-20</time>
+  <span class="mx-1">&middot;</span>
+  <span>2min</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>Prathamesh</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+
+  <a class="absolute inset-0 text-[0px]" href="https:&#x2F;&#x2F;prathameshh8.github.io&#x2F;Journal&#x2F;placeholder-1&#x2F;">Placeholder Text 1</a>
+</section>
+
+
+<!-- Main Nav -->
+
+<nav class="not-prose mt-16 flex font-bold">
+  <!---->
+  
+</nav>
+
+<!---->
+      
+    </main>
+
+    <footer class="mx-auto flex max-w-3xl flex-wrap items-center px-8 py-4 text-sm opacity-60">
+  <div class="mr-auto basis-full lg:basis-1/2">
+    <!---->
+    <!---->
+    &copy; 2020 - 2025<!---->
+    
+    <a class="link" href="https://prathameshh8.github.io/Journal">
+      Prathamesh
+    </a>
+     |<!---->
+    <!---->
+    <a class="link" href="https:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-sa&#x2F;4.0&#x2F;deed" rel="noopener" target="_blank">
+      CC BY-SA 4.0
+    </a>
+    <!---->
+    
+  </div>
+  <div class="flex basis-full lg:basis-1/2 lg:justify-end">
+    <a class="link mr-6 lg:ml-6" href="https://www.getzola.org/" rel="noopener" target="_blank">
+      Powered by Zola
+    </a>
+    <a class="link" href="https://github.com/st1020/kita" rel="noopener" target="_blank">✎ Kita</a>
+  </div>
+  <!-- Footer inject -->
+  
+</footer>
+
+
+    <!-- Body End inject -->
+    
+  </body>
+</html>
